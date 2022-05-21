@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    top: 0;
+}
+
+
+#real{
+    background-color: lightgrey;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 12px; 
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+#outraMoeda{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 12px; 
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+#default, #conversaoMoeda, #pagamento{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 12px; 
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 250px;
+}
+
+#real:focus, #outraMoeda:focus, #dafeul:focus, #conversaoMoeda:focus, #pagamento{
+    box-shadow: none;
+    outline: 0;
+}
+
+
+#conversaoMoeda{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 12px; 
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 250px;
+}
+
+.lbl{
+    font-size: 12px; 
+    margin-top: 30px;
+}
+
+hr{
+    margin-top: 0rem !important;
+    width: 440px;
+}
+
+#cotar{
+    margin-top: 10px;
+    width: 100px;
+}
+
+.check{
+    font-size: 10px;
+    width: 450px; 
+}
+
+#ant{
+    margin-top: -4px;
+}
+
+#historicoCompra{
+    background-color: #f0f1f2; 
+    border-radius: 5px; 
+    height: 60vh; 
+    font-family: monospace;
+    font-size: 12px; 
+    margin-top: 10px; 
+    overflow: auto; 
+}
+
+.mensagem{
+    font-size: 12px;
+    line-height: 10px;
+    margin-top: 10px;
+    width: 101.5%;
+}
